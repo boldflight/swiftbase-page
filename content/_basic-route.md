@@ -1,5 +1,5 @@
 ```swift
-import Hummingbird
+import SwiftBase
 import Meow // From MongoKitten
 
 router.get("/videos/:id") { req, context in

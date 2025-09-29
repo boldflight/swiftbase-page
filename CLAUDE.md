@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is the official website for the Hummingbird web framework (https://hummingbird.codes), built with SvelteKit and custom Svelte components. It's a static site that showcases the framework with documentation links, examples, news, and ecosystem information.
+This is the official website for Swift Base, built with SvelteKit and custom Svelte components. It's a static site that showcases the framework with documentation links, examples, news, and ecosystem information.
 
 When connected to the svelte-llm MCP server, you have access to comprehensive Svelte 5 and SvelteKit documentation. Here's how to use the available tools effectively:
 
@@ -50,7 +50,7 @@ After calling the list_sections tool, you MUST analyze the returned documentatio
 ### Key Configuration
 - **Theme**: Orange primary color, zinc gray, system color mode preference
 - **Icons**: Heroicons, Simple Icons, MDI, Fluent collections
-- **Routing**: File-based routing with server-side redirects (`/docs` → docs.hummingbird.codes) and Discord
+- **Routing**: File-based routing with server-side redirects and Discord integration
 - **Content**: Syntax highlighting for JSON, YAML, shell, Swift
 
 ### Content Management

@@ -1,6 +1,6 @@
-# Hummingbird.codes SvelteKit Template
+# Swift Base SvelteKit Site
 
-This is the official website template for the Hummingbird web framework, built with SvelteKit and designed for deployment to GitHub Pages with automatic custom domain detection.
+This is the official website for Swift Base, built with SvelteKit and designed for deployment to GitHub Pages with automatic custom domain detection.
 
 ## Features
 

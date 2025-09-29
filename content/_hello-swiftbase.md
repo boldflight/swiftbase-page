@@ -1,5 +1,5 @@
 ```swift
-import Hummingbird
+import SwiftBase
 
 let router = Router().get { req, context in
     return "Hello, Swift!"
