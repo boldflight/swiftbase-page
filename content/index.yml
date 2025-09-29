@@ -20,8 +20,8 @@ hero:
       color: gray
       to: /examples
 features:
-  title: Build Full Stack Apps with Swift
-  description: Swift Base combines hosted database, AI models, and a meta framework to make simple, performant, multi-platform apps.
+  title: 10x Better Swift Development Experience
+  description: Swift Base makes SwiftOS development dramatically faster. Build full stack apps in a weekend with native Swift tools that integrate seamlessly.
   items:
     - title: Hosted Database
       description: Full-stack hosted database with real-time features, type-safe queries, and automatic Swift model generation. Built-in support for PostgreSQL, Redis, and vector embeddings.

@@ -69,22 +69,84 @@ backend:
       description: Complete backend-as-a-service with real-time subscriptions, authentication, storage, and edge functions.
       icon: i-simple-icons-supabase
       to: https://github.com/supabase/supabase-swift
-      class: col-span-6
+      class: col-span-4
+    - title: InstantDB
+      library: InstantDB
+      description: New instant database solution for rapid prototyping and real-time applications with Swift integration.
+      icon: i-heroicons-bolt
+      to: https://www.instantdb.com
+      class: col-span-4
+    - title: SpaceTime DB
+      library: SpaceTimeDB
+      description: Space-time database for complex temporal data relationships and distributed Swift applications.
+      icon: i-heroicons-globe-alt
+      to: https://spacetimedb.com
+      class: col-span-4
     - title: Get
       library: Get
       description: Modern Swift networking with async/await support, type-safe API clients, and powerful request/response handling.
       icon: i-heroicons-cloud-arrow-down
       to: https://github.com/kean/Get
       class: col-span-6
-userexperience:
-  title: User Experience & Analytics
-  description: Libraries for creating delightful user experiences and understanding app usage.
+    - title: Swift AWS Lambda Runtime
+      library: swift-aws-lambda-runtime
+      description: Deploy Swift functions to AWS Lambda with optimized performance and seamless integration.
+      icon: i-simple-icons-awslambda
+      to: https://github.com/swift-server/swift-aws-lambda-runtime
+      class: col-span-6
+serverless:
+  title: Serverless & Content Management
+  description: Deploy Swift applications serverlessly and manage content with native Swift tools.
   items:
-    - title: TelemetryDeck
-      library: TelemetryDeck
-      description: Privacy-focused analytics service for Swift apps. Understand user behavior without compromising privacy.
-      icon: i-heroicons-chart-bar-square
-      to: https://github.com/TelemetryDeck/SwiftSDK
+    - title: Swifty CMS
+      library: Swifty CMS
+      description: Swift-native content management system with Swift Sanity integration for type-safe content handling.
+      icon: i-heroicons-document-duplicate
+      to: https://docs.swiftbase.dev/cms
+      class: col-span-4
+    - title: Swift Notify
+      library: SwiftNotify
+      description: Native Swift notification service for real-time updates and push notifications across all platforms.
+      icon: i-heroicons-bell-alert
+      to: https://docs.swiftbase.dev/notify
+      class: col-span-4
+    - title: SwiftLit
+      library: SwiftLit
+      description: Simple, cross-platform Swift deployment solution. Build once, deploy everywhere with minimal configuration.
+      icon: i-heroicons-rocket-launch
+      to: https://docs.swiftbase.dev/swiftlit
+      class: col-span-4
+userexperience:
+  title: User Experience & Media
+  description: Libraries for creating delightful user experiences with rich media support.
+  items:
+    - title: Nuke
+      library: Nuke
+      description: High-performance image loading system with advanced caching, processing, and SwiftUI integration.
+      icon: i-heroicons-photo
+      to: https://github.com/kean/Nuke
+      class: col-span-6
+    - title: Gifu
+      library: Gifu
+      description: High-performance animated GIF support for iOS with memory-efficient frame management and smooth playback.
+      icon: i-heroicons-gif
+      to: https://github.com/kaishin/Gifu
+      class: col-span-6
+notifications:
+  title: Notifications & Communication
+  description: Comprehensive notification and real-time communication solutions for Swift applications.
+  items:
+    - title: SwiftSignal
+      library: SwiftSignal
+      description: Real-time signaling and communication system built natively in Swift for instant messaging and live updates.
+      icon: i-heroicons-signal
+      to: https://docs.swiftbase.dev/signal
+      class: col-span-4
+    - title: Swift OneSignal
+      library: OneSignal Swift
+      description: Enhanced OneSignal integration with Swift-native APIs for push notifications across all platforms.
+      icon: i-heroicons-device-phone-mobile
+      to: https://github.com/OneSignal/OneSignal-iOS-SDK
       class: col-span-4
     - title: Knock
       library: Knock
@@ -92,17 +154,33 @@ userexperience:
       icon: i-heroicons-bell
       to: https://knock.app/
       class: col-span-4
-    - title: Nuke
-      library: Nuke
-      description: High-performance image loading system with advanced caching, processing, and SwiftUI integration.
-      icon: i-heroicons-photo
-      to: https://github.com/kean/Nuke
-      class: col-span-4
-    - title: Gifu
-      library: Gifu
-      description: High-performance animated GIF support for iOS with memory-efficient frame management and smooth playback.
-      icon: i-heroicons-gif
-      to: https://github.com/kaishin/Gifu
+    - title: Notifications (APNs)
+      library: APNs Swift
+      description: Native Apple Push Notification service integration with type-safe Swift APIs and automatic certificate management.
+      icon: i-simple-icons-apple
+      to: https://github.com/swift-server-community/APNSwift
+      class: col-span-6
+    - title: Emails (Resend)
+      library: Resend Swift
+      description: Modern email delivery service with Swift SDK for transactional emails and marketing campaigns.
+      icon: i-heroicons-envelope
+      to: https://docs.swiftbase.dev/resend
+      class: col-span-6
+analytics:
+  title: Analytics & Logging
+  description: Privacy-focused analytics and comprehensive logging solutions for Swift applications.
+  items:
+    - title: TelemetryDeck
+      library: TelemetryDeck
+      description: Privacy-focused analytics service for Swift apps. Understand user behavior without compromising privacy.
+      icon: i-heroicons-chart-bar-square
+      to: https://github.com/TelemetryDeck/SwiftSDK
+      class: col-span-6
+    - title: Logs (Pulse + Swift-log)
+      library: Swift Logging
+      description: Comprehensive logging ecosystem combining Pulse network logging with Swift's native logging framework.
+      icon: i-heroicons-document-text
+      to: https://github.com/apple/swift-log
       class: col-span-6
 development:
   title: Development & Debugging Tools
@@ -113,16 +191,104 @@ development:
       description: Network logger for Apple platforms. Record and inspect network requests with beautiful SwiftUI interfaces.
       icon: i-heroicons-signal
       to: https://github.com/kean/Pulse
-      class: col-span-12
+      class: col-span-6
+    - title: LLM Hosting
+      library: LLM Hosting
+      description: Easily add language models to your Swift applications with built-in hosting and management.
+      icon: i-heroicons-cpu-chip
+      to: https://docs.swiftbase.dev/llm
+      class: col-span-6
+ide:
+  title: IDEs & Code Editors
+  description: Modern development environments optimized for Swift development with AI assistance.
+  items:
+    - title: Swift IDE
+      library: Swift IDE
+      description: Native Swift development environment designed specifically for Swift Base applications.
+      icon: i-heroicons-code-bracket-square
+      to: https://docs.swiftbase.dev/ide
+      class: col-span-4
+    - title: Code Edit
+      library: CodeEdit
+      description: Swift-based code editor with native performance and SwiftUI interface.
+      icon: i-heroicons-pencil-square
+      to: https://github.com/CodeEditApp/CodeEdit
+      class: col-span-4
+    - title: Nova
+      library: Nova
+      description: Modern code editor with excellent Swift support and extensible architecture.
+      icon: i-heroicons-sparkles
+      to: https://nova.app
+      class: col-span-4
+    - title: Swift Studio
+      library: Swift Studio
+      description: Professional Swift development suite with integrated debugging and deployment tools.
+      icon: i-heroicons-building-office
+      to: https://docs.swiftbase.dev/studio
+      class: col-span-4
+    - title: Code Runner
+      library: Code Runner
+      description: Execute Swift scripts and prototypes instantly with built-in Swift runtime.
+      icon: i-heroicons-play
+      to: https://coderunnerapp.com
+      class: col-span-4
+    - title: Aurora Editor
+      library: Aurora Editor
+      description: SwiftUI-based code editor with native Apple platform integration and themes.
+      icon: i-heroicons-sun
+      to: https://github.com/AuroraEditor/AuroraEditor
+      class: col-span-4
+ai_tools:
+  title: AI-Enhanced Development
+  description: Next-generation development tools with AI assistance for Swift.
+  items:
+    - title: Zed
+      library: Zed
+      description: Collaborative code editor with AI pair programming and real-time collaboration features.
+      icon: i-heroicons-users
+      to: https://zed.dev
+      class: col-span-4
+    - title: Windsurf
+      library: Windsurf
+      description: AI-powered IDE with intelligent code completion and Swift pattern recognition.
+      icon: i-heroicons-command-line
+      to: https://docs.swiftbase.dev/windsurf
+      class: col-span-4
+    - title: Cursor
+      library: Cursor
+      description: AI-first code editor that understands Swift codebases and provides contextual assistance.
+      icon: i-heroicons-cursor-arrow-ripple
+      to: https://cursor.sh
+      class: col-span-4
+performance:
+  title: 10x Developer Experience
+  description: Swift Base dramatically accelerates Swift development with intelligent tooling and seamless integrations.
+  items:
+    - title: Weekend Project Speed
+      description: Build and deploy complete Swift applications in a weekend. From database to deployment, everything works together seamlessly.
+      icon: i-heroicons-bolt
+      class: col-span-4
+    - title: SwiftOS Integration
+      description: Native integration with SwiftOS makes development 10x faster with platform-optimized tools and workflows.
+      icon: i-simple-icons-swift
+      class: col-span-4
+    - title: AI-Powered Productivity
+      description: Swift Base AI companion accelerates development with intelligent code generation, optimization, and deployment automation.
+      icon: i-heroicons-sparkles
+      class: col-span-4
 integration:
-  title: Swift Base Integration
-  description: All these libraries work seamlessly together within the Swift Base metaframework.
+  title: The Content Operating System
+  description: All these libraries work seamlessly together within the Swift Base metaframework to create a unified development experience.
   items:
     - title: Unified Type System
-      description: Shared models and types across TCA state, Supabase schemas, and UI components ensure end-to-end type safety.
+      description: Shared models and types across TCA state, database schemas, and UI components ensure end-to-end type safety from InstantDB to SwiftUI.
       icon: i-heroicons-link
-      class: col-span-6
-    - title: AI-Assisted Development
-      description: Swift Base AI companion understands your library usage patterns and suggests optimal integrations and performance improvements.
-      icon: i-heroicons-cpu-chip
-      class: col-span-6
+      class: col-span-4
+    - title: Cross-Platform Deployment
+      description: Deploy once to iOS, macOS, Linux, and web with SwiftLit. Lambda functions, native apps, and web services from the same codebase.
+      icon: i-heroicons-globe-alt
+      class: col-span-4
+    - title: Real-Time Everything
+      description: SwiftSignal, Supabase real-time, and notification systems work together to create responsive, live applications.
+      icon: i-heroicons-signal
+      class: col-span-4
