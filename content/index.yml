@@ -1,18 +1,18 @@
-title: Hummingbird
-description: Hummingbird is a cross-platform web server framework for Swift.
+title: Swift Base
+description: Swift Base is a full stack ecosystem for Swift on the server and every platform.
 hero:
-  title: Hummingbird
-  description: The Web Framework for Swift
+  title: Swift Base
+  description: Full Stack Swift Ecosystem
   headline:
-    label: What's new in Hummingbird 2?
-    to: https://swiftonserver.com/whats-new-in-hummingbird-2/
-    icon: i-heroicons-arrow-top-right-on-square-20-solid
+    label: Powered by AI companion
+    to: https://swiftbase.dev/ai
+    icon: i-heroicons-sparkles-20-solid
   links:
     - label: Get started
       icon: i-heroicons-arrow-right-20-solid
       trailing: true
       size: xl
-      to: https://docs.hummingbird.codes/2.0/documentation/hummingbird/gettingstarted
+      to: https://docs.swiftbase.dev/getting-started
       target: _blank
     - label: Example Projects
       icon: i-simple-icons-github
@@ -20,51 +20,50 @@ hero:
       color: gray
       to: /examples
 features:
-  title: Create Better Backends with Swift
-  description: Hummingbird takes advantage of Swift to make it easy and enjoyable to create robust backends.
+  title: Build Full Stack Apps with Swift
+  description: Swift Base combines hosted database, AI models, and a meta framework to make simple, performant, multi-platform apps.
   items:
-    - title: Ergonomic Syntax
-      description: Hummingbird apps are easy to develop thanks to Swift's ergonomic syntax.
-      icon: heroicons:light-bulb
-    - title: Structured Concurrency
+    - title: Hosted Database
+      description: Full stack hosted database like Supabase, built for Swift with type-safe queries and real-time features.
+      icon: heroicons:circle-stack
+    - title: AI-Powered Development
       description: |
-        Embracing Structured Concurrency makes Hummingbird apps easy to build.
+        Trained AI model that understands your codebase and helps you build faster with intelligent suggestions.
+      icon: heroicons:cpu-chip
+    - title: Meta Framework
+      description: |
+        Write server and client code together in the same file with our powerful meta framework for Swift.
+      icon: heroicons:code-bracket
+    - title: Multi-Platform
+      description: Deploy to iOS, macOS, Linux, and the web from a single Swift codebase.
+      icon: heroicons:device-phone-mobile
+    - title: Type-Safe Everything
+      description: Swift's type system ensures your full stack is safe and reliable from database to UI.
       icon: heroicons:shield-check
-    - title: Lightweight
-      description: |
-        With a tiny memory footprint, Hummingbird is perfect for deploying on cloud services.
-      icon: heroicons:server-stack
-    - title: Thread and Memory Safe
-      description: Swift checks your apps for errors, making your code reliable even before you run it.
-      icon: heroicons:magnifying-glass
-    - title: Predictably Performant
-      description: Hummingbird makes your backends blazing fast, while ARC replaces garbage collection.
+    - title: Performance First
+      description: Optimized for speed with Swift's performance and our intelligent compilation pipeline.
       icon: heroicons:rocket-launch
-    - title: Cross-Platform
-      description: Swift runs on your platform. Linux, macOS, and iOS.
-      icon: simple-icons:linux
 ecosystem:
-  title: Every Package you need
+  title: Complete Development Stack
   description: |
-    Hummingbird comes with mature solutions for the common needs of all web applications.
+    Swift Base provides everything you need: database, AI assistance, and deployment tools in one cohesive ecosystem.
   links:
-    - label: Discover Packages
+    - label: Explore Stack
       icon: i-heroicons-arrow-right-20-solid
       trailing: true
       size: xl
       to: /ecosystem
       target: _blank
 performance:
-  title: Excellent Performance
+  title: AI-Enhanced Performance
   description: |
-    Hummingbird uses a modern, high-performance web server that can handle tens of thousands of requests per second.
-    All of this while keeping your memory footprint extremely low.
+    Swift Base's AI companion optimizes your code in real-time, while Swift's performance ensures blazing fast execution across all platforms.
 cta:
-  title: Join the Hummingbird Community
+  title: Join the Swift Base Community
   description: |
-    Join the Hummingbird community on Discord to get help, share your projects, and chat with other developers.
+    Connect with developers building the future of full stack Swift development. Get help from our AI companion and the community.
   links:
     - label: Join the Community
-      to: https://discord.gg/4twfgYqdat
+      to: https://discord.gg/swiftbase
       leadingIcon: i-simple-icons-discord
       size: xl

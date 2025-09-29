@@ -10,32 +10,37 @@
 
 	let { data }: { data: PageData } = $props();
 
-	// Extract Swift code from markdown
-	const helloCode = `import Hummingbird
+	// Extract Swift code from Swift Base examples
+	const helloCode = `import SwiftBase
 
-let router = Router().get { req, context in
-    return "Hello, Swift!"
-}
-let app = Application(router: router)
-try await app.runService()`;
+@App
+struct MyApp {
+    @Route("/hello")
+    func hello() -> String {
+        return "Hello, Swift Base!"
+    }
+}`;
 
-	const basicRouteCode = `import Hummingbird
-import Meow // From MongoKitten
+	const basicRouteCode = `import SwiftBase
 
-router.get("/videos/:id") { req, context in
-  let id = try context.parameters.require(
-    "id",
-    as: Reference<Video>.self
-  )
-  return try await id.resolve(in: db)
+@App
+struct VideoApp {
+    @Route("/videos/:id")
+    func getVideo(id: String) async throws -> Video {
+        // Server-side database query
+        let video = try await db.videos.find(id)
+        
+        // Client automatically gets type-safe Video
+        return video
+    }
 }`;
 </script>
 
 <svelte:head>
-	<title>{data.page?.title || 'Hummingbird'}</title>
-	<meta name="description" content={data.page?.description || 'The Web Framework for Swift'} />
-	<meta property="og:title" content={data.page?.title || 'Hummingbird'} />
-	<meta property="og:description" content={data.page?.description || 'The Web Framework for Swift'} />
+	<title>{data.page?.title || 'Swift Base'}</title>
+	<meta name="description" content={data.page?.description || 'Full Stack Swift Ecosystem'} />
+	<meta property="og:title" content={data.page?.title || 'Swift Base'} />
+	<meta property="og:description" content={data.page?.description || 'Full Stack Swift Ecosystem'} />
 </svelte:head>
 
 <div class="relative min-h-screen">
@@ -45,7 +50,7 @@ router.get("/videos/:id") { req, context in
 
 	<LandingSection class="!py-16 md:!py-24 lg:!py-32 min-h-screen flex items-center">
 		<LandingHero 
-			title='<span class="logo-overlay">Hummingbird</span>'
+			title='<span class="logo-overlay">Swift Base</span>'
 			description={data.page?.hero?.description}
 			links={data.page?.hero?.links}
 		>

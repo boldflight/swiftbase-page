@@ -1,11 +1,6 @@
 authors:
-  Adam:
-    name: Adam Fowler
+  "Swift Base Team":
+    name: Swift Base Team
     avatar:
-      src: https://github.com/adam-fowler.png
-    to: https://mastodon.scot/@opticalaberration
-  Joannis:
-    name: Joannis Orlandos
-    avatar:
-      src: https://github.com/joannis.png
-    to: https://x.com/JoannisOrlandos
+      src: https://swiftbase.dev/team-avatar.png
+    to: https://github.com/swiftbase

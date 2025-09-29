@@ -35,10 +35,10 @@
 				<a href="/" class="flex items-center space-x-2">
 					<img
 						src="{assets}/logo@100px.png"
-						alt="Hummingbird Logo"
+						alt="Swift Base Logo"
 						class="w-8 h-8 mx-auto header-logo"
 					/>
-					<span class="text-xl font-bold text-gray-900 dark:text-white">Hummingbird</span>
+					<span class="text-xl font-bold text-gray-900 dark:text-white">Swift Base</span>
 				</a>
 			</div>
 
@@ -60,7 +60,7 @@
 			<!-- Right side button -->
 			<div class="flex items-center">
 				<a
-					href="https://docs.hummingbird.codes/"
+					href="https://docs.swiftbase.dev/"
 					target="_blank"
 					rel="noopener noreferrer"
 					class="hidden lg:flex items-center space-x-2 px-4 py-2 bg-white dark:bg-gray-800 text-gray-900 dark:text-white border border-gray-200 dark:border-gray-700 rounded-full hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors"

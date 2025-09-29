@@ -1,22 +1,22 @@
-title: Hummingbird - News
-description: Hummingbird 2 is a cross-platform web server framework for Swift.
+title: Swift Base - News
+description: Swift Base is a full stack ecosystem for Swift on the server and every platform.
 hero:
   title: News
-  description: Latest news and developments from Hummingbird.
+  description: Latest news and developments from Swift Base.
   headline:
-    label: Hummingbird 2 is out!
-    to: /news/hummingbird-2
-    icon: i-heroicons-arrow-top-right-on-square-20-solid
+    label: Swift Base AI Companion is here!
+    to: /news/ai-companion-launch
+    icon: i-heroicons-sparkles-20-solid
 posts:
-  - title: Hummingbird 2 is out!
-    description: Hummingbird 2 has been released. The framework has been completely rebuilt from scratch with Swift concurrency taking a central role.
-    to: /news/hummingbird-2
-    date: 11 Sep 2024
+  - title: Swift Base AI Companion is here!
+    description: Introducing our AI companion that understands your Swift codebase and helps you build faster with intelligent suggestions and real-time optimizations.
+    to: /news/ai-companion-launch
+    date: 29 Sep 2024
     authors:
-      - Adam
-  - title: Hummingbird 2 Release Candidate
-    description: The Hummingbird 2 Release Candidate is now available, marking the final stages before the official release.
-    to: /news/hummingbird-2-release-candidate
-    date: 1 July 2024
+      - Swift Base Team
+  - title: Meta Framework Beta Release
+    description: The Swift Base Meta Framework beta is now available, allowing you to write server and client code together in the same file.
+    to: /news/meta-framework-beta
+    date: 15 Sep 2024
     authors:
-      - Adam
+      - Swift Base Team

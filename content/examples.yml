@@ -1,9 +1,9 @@
 title: Example Projects
-description: Hummingbird comes with a number of example projects that demonstrate how to build your own applications using the framework.
+description: Swift Base comes with a number of example projects that demonstrate how to build full stack applications using the ecosystem.
 categories:
   - title: Authentication
     description: |
-      Example projects demonstrating how to implement authentication in Hummingbird.
+      Example projects demonstrating how to implement authentication in Swift Base applications.
     projects:
       - title: AWS Cognito
         description: An implementation of authentication through the 'Soto' AWS SDK for Swift.

@@ -1,18 +1,18 @@
-title: Hummingbird - Getting Started
-description: Get started with Hummingbird 2, a cross-platform web server framework for Swift.
+title: Swift Base - Getting Started
+description: Get started with Swift Base, a full stack ecosystem for Swift on the server and every platform.
 hero:
   title: Setup Guide
-  description: Swift runs on your platform. We'll set you up in no time!
+  description: Swift Base works on your platform. We'll set you up in no time with AI assistance!
   links:
     - label: Need Help?
-      to: https://discord.gg/4twfgYqdat
+      to: https://discord.gg/swiftbase
       color: gray
       leadingIcon: i-simple-icons-discord
       size: xl
 swift:
   title: Install Swift
   description: |
-    The Swift programming language is the foundation of Hummingbird.
+    The Swift programming language is the foundation of Swift Base.
   links:
     - label: Xcode (macOS)
       to: https://developer.apple.com/xcode/
@@ -32,7 +32,7 @@ swift:
 editor:
   title: Editor Support
   description: |
-    Hummingbird works great with your favorite editors.
+    Swift Base works great with your favorite editors, enhanced by our AI companion.
   links:
     - label: Xcode (macOS only)
       to: https://developer.apple.com/xcode/
@@ -51,44 +51,44 @@ editor:
       size: xl
 template:
   title: Create a Project
-  description: Start a new project from a template or example project.
+  description: Start a new Swift Base project with our AI-assisted templates.
   links:
     - label: Quick Start
-      to: https://github.com/hummingbird-project/template
+      to: https://github.com/swiftbase/template
       leadingIcon: i-simple-icons-github
       size: xl
     - label: Examples
-      to: https://github.com/hummingbird-project/hummingbird-examples
+      to: https://github.com/swiftbase/examples
       leadingIcon: i-simple-icons-git
       color: gray
       size: xl
-    - label: SwiftPM (manual)
-      to: https://github.com/hummingbird-project/hummingbird
-      leadingIcon: i-simple-icons-swift
+    - label: CLI Tool
+      to: https://docs.swiftbase.dev/cli
+      leadingIcon: i-heroicons-terminal
       color: gray
       size: xl
 run:
   title: Run Your Project
   description: |
-    Run your project and start building your backend.
+    Run your project and start building your full stack application with AI assistance.
   links:
     - label: Learn Swift
       to: https://docs.swift.org/swift-book/documentation/the-swift-programming-language/guidedtour/
       leadingIcon: i-heroicons-light-bulb
       size: xl
       color: gray
-    - label: Hummingbird Docs
-      to: https://docs.hummingbird.codes/
+    - label: Swift Base Docs
+      to: https://docs.swiftbase.dev/
       leadingIcon: i-heroicons-book-open
       size: xl
       color: gray
 cta:
-  title: Join the Hummingbird Community
+  title: Join the Swift Base Community
   description: |
-    Join the Hummingbird community on Discord to get help, share your projects, and chat with other developers.
+    Join the Swift Base community on Discord to get help, share your projects, and connect with other developers building the future of Swift.
   links:
     - label: Join the Community
-      to: https://discord.gg/4twfgYqdat
+      to: https://discord.gg/swiftbase
       leadingIcon: i-simple-icons-discord
       size: xl
       color: gray

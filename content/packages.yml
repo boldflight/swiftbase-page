@@ -1,78 +1,42 @@
-title: Hummingbird - Ecosystem
-description: Hummingbird has a rich ecosystem of mature packages to help you build your backend.
+title: Swift Base - Ecosystem
+description: Swift Base provides a complete full stack ecosystem for building Swift applications across all platforms.
 hero:
   title: Ecosystem
-  description: Some highlighted packages that are commonly used with Hummingbird.
+  description: The three core components of Swift Base working together to provide a complete development experience.
   links:
     - label: Get started
       icon: i-heroicons-arrow-right-20-solid
       trailing: true
       size: xl
-      to: https://github.com/hummingbird-project/hummingbird
+      to: https://docs.swiftbase.dev/getting-started
       target: _blank
     - label: Browse All
       icon: i-heroicons-magnifying-glass
       size: xl
       color: gray
-      to: https://swiftpackageindex.com/search?query=platform%3Alinux
+      to: https://github.com/swiftbase
       target: _blank
 extensions:
-  title: Official Extensions
-  description: There are official extensions to cover many of your use cases.
+  title: Core Components
+  description: The three main parts of Swift Base that work together to create a complete full stack ecosystem.
   items:
-    - title: WebSocket
-      library: HummingbirdWebSocket
-      description: WebSocket upgrade support for the Hummingbird server framework.
-      icon: i-heroicons-globe-alt
-      to: https://github.com/hummingbird-project/hummingbird-websocket
-      class: col-span-4
-    - title: AWS Lambda
-      library: HummingbirdLambda
-      description: Run Hummingbird inside an AWS Lambda.
-      icon: i-simple-icons-awslambda
-      to: https://github.com/hummingbird-project/hummingbird-lambda
-      class: col-span-4
-    - title: Authentication
-      library: HummingbirdAuth
-      description: Authentication framework and extensions for Hummingbird server framework.
-      icon: i-heroicons-lock-closed
-      to: https://github.com/hummingbird-project/hummingbird-auth
-      class: col-span-4
-    - title: OpenAPI
-      library: OpenAPIHummingbird
-      description: Generate Swift client and server code from an OpenAPI document.
-      icon: i-simple-icons-swagger
-      to: https://github.com/swift-server/swift-openapi-hummingbird
-      class: col-span-4
-    - title: Fluent ORM
-      library: HummingbirdFluent
-      description: Hummingbird interface to the Fluent database ORM.
+    - title: Hosted Database
+      library: SwiftBase DB
+      description: Full stack hosted database like Supabase, built for Swift with type-safe queries and real-time features.
       icon: i-heroicons-circle-stack
-      to: https://github.com/hummingbird-project/hummingbird-fluent
+      to: https://docs.swiftbase.dev/database
       class: col-span-4
-    - title: HTTP Compression
-      library: HummingbirdCompression
-      description: Request decompression and response compression for Hummingbird
-      icon: i-simple-icons-swagger
-      to: https://github.com/hummingbird-project/hummingbird-compression
+    - title: AI Companion
+      library: SwiftBase AI
+      description: Trained AI model that understands your codebase and helps you build faster with intelligent suggestions.
+      icon: i-heroicons-cpu-chip
+      to: https://docs.swiftbase.dev/ai
       class: col-span-4
-    - title: Redis
-      library: HummingbirdRedis
-      description: Hummingbird interface to RediStack Swift library.
-      icon: i-simple-icons-redis
-      to: https://github.com/hummingbird-project/hummingbird-redis
-      class: col-span-4
-    - title: Mustache
-      library: Swift-Mustache
-      description: Package for rendering dynamic content using Mustache templates.
-      icon: i-mdi-mustache
-      to: https://github.com/hummingbird-project/swift-mustache
-      class: col-span-4
-    - title: Job Queues
-      library: Jobs
-      description: Job queue used to persist and offload work to other servers.
-      icon: i-fluent-people-queue-24-regular
-      to: https://github.com/hummingbird-project/swift-jobs
+    - title: Meta Framework
+      library: SwiftBase Framework
+      description: Write server and client code together in the same file with our powerful meta framework for Swift.
+      icon: i-heroicons-code-bracket
+      to: https://docs.swiftbase.dev/framework
       class: col-span-4
 databases:
   title: Database Support
