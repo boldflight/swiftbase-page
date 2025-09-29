@@ -1,12 +1,12 @@
 title: Swift Base
-description: Swift Base is a full stack ecosystem for Swift on the server and every platform.
+description: The Supabase alternative written in Swift. Full stack ecosystem for Swift on the server and every platform.
 hero:
   title: Swift Base
-  description: Full Stack Swift Ecosystem
+  description: The Supabase Alternative for Swift
   headline:
-    label: Powered by AI companion
-    to: https://swiftbase.dev/ai
-    icon: i-heroicons-sparkles-20-solid
+    label: Build in a weekend, deploy everywhere
+    to: https://swiftbase.dev/quickstart
+    icon: i-heroicons-rocket-launch
   links:
     - label: Get started
       icon: i-heroicons-arrow-right-20-solid
@@ -24,24 +24,24 @@ features:
   description: Swift Base combines hosted database, AI models, and a meta framework to make simple, performant, multi-platform apps.
   items:
     - title: Hosted Database
-      description: Full stack hosted database like Supabase, built for Swift with type-safe queries and real-time features.
+      description: Full-stack hosted database with real-time features, type-safe queries, and automatic Swift model generation. Built-in support for PostgreSQL, Redis, and vector embeddings.
       icon: heroicons:circle-stack
     - title: AI-Powered Development
       description: |
-        Trained AI model that understands your codebase and helps you build faster with intelligent suggestions.
+        Advanced AI companion trained on Swift patterns that provides intelligent code completion, refactoring suggestions, and performance optimizations in real-time as you develop.
       icon: heroicons:cpu-chip
     - title: Meta Framework
       description: |
-        Write server and client code together in the same file with our powerful meta framework for Swift.
+        Revolutionary metaframework that unifies server and client development. Write full-stack Swift applications where backend APIs, database queries, and frontend UI components share the same file and type definitions.
       icon: heroicons:code-bracket
     - title: Multi-Platform
-      description: Deploy to iOS, macOS, Linux, and the web from a single Swift codebase.
+      description: Deploy to iOS, macOS, Linux, and web from a single Swift codebase. Shared business logic, type definitions, and validation rules across all platforms.
       icon: heroicons:device-phone-mobile
     - title: Type-Safe Everything
-      description: Swift's type system ensures your full stack is safe and reliable from database to UI.
+      description: End-to-end type safety from database schemas to UI components. Swift's type system prevents runtime errors and ensures data consistency across your entire stack.
       icon: heroicons:shield-check
     - title: Performance First
-      description: Optimized for speed with Swift's performance and our intelligent compilation pipeline.
+      description: AI-optimized compilation pipeline that analyzes your code patterns and applies performance improvements automatically. Built on Swift's speed with zero-cost abstractions.
       icon: heroicons:rocket-launch
 ecosystem:
   title: Complete Development Stack

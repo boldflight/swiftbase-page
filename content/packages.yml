@@ -38,99 +38,91 @@ extensions:
       icon: i-heroicons-code-bracket
       to: https://docs.swiftbase.dev/framework
       class: col-span-4
-databases:
-  title: Database Support
+architecture:
+  title: Core Architecture Libraries
+  description: Foundation libraries for building robust, maintainable Swift applications.
   items:
-    - title: PostgreSQL
-      library: PostgresNIO
-      description: Non-blocking, event-driven Swift client for PostgreSQL.
-      icon: i-simple-icons-postgresql
-      to: https://github.com/vapor/postgres-nio
-    - title: MySQL
-      library: MySQLNIO
-      description: Non-blocking, event-driven Swift client for MySQL.
-      icon: i-simple-icons-mysql
-      to: https://github.com/vapor/mysql-nio
-    - title: SQLite
-      library: SQLiteNIO
-      description: Non-blocking wrapper for libsqlite3-dev.
-      icon: i-simple-icons-sqlite
-      to: https://github.com/vapor/sqlite-nio
-    - title: Oracle
-      library: OracleNIO
-      description: Non-blocking, event-driven Swift client for Oracle Databases.
-      icon: i-simple-icons-oracle
-      to: https://github.com/lovetodream/oracle-nio
-    - title: Redis
-      library: RediStack
-      description: A non-blocking Swift client for Redis.
-      icon: i-simple-icons-redis
-      to: https://github.com/swift-server/redistack
-    - title: MongoDB
-      library: MongoKitten
-      description: A fast, pure swift MongoDB driver built for Server Side Swift.
-      icon: i-simple-icons-mongodb
-      to: https://github.com/orlandos-nl/MongoKitten
-    - title: Apache Cassandra
-      library: Swift-Cassandra-Client
-      description: A Swift client for Apache Cassandra.
-      icon: i-simple-icons-apachecassandra
-      to: https://github.com/apple/swift-cassandra-client
-    - title: Apache Kafka
-      library: Swift-Kafka-Client
-      description: A Swift client for Apache Kafka.
-      icon: i-simple-icons-apachekafka
-      to: https://github.com/swift-server/swift-kafka-client
-observability:
-  title: Observability
-  description: Observability is integrated throughout the stack.
+    - title: The Composable Architecture (TCA)
+      library: swift-composable-architecture
+      description: Build applications with consistent, testable, and composable architecture. State management, side effects, and navigation made simple.
+      icon: i-heroicons-puzzle-piece
+      to: https://github.com/pointfreeco/swift-composable-architecture
+      class: col-span-4
+    - title: Ship
+      library: Ship
+      description: Rapid application development framework for Swift. Build powerful apps quickly with pre-built components and patterns.
+      icon: i-heroicons-rocket-launch
+      to: https://docs.swiftbase.dev/ship
+      class: col-span-4
+    - title: Swift Markdown
+      library: swift-markdown
+      description: Parse, build, edit, and analyze Markdown documents with SwiftUI rendering support for rich text experiences.
+      icon: i-heroicons-document-text
+      to: https://github.com/swiftlang/swift-markdown
+      class: col-span-4
+backend:
+  title: Backend & Database Integration
+  description: Powerful backend services and database connectivity for your Swift applications.
   items:
-    - title: Logging
-      description: A Logging API package for Swift.
-      icon: i-heroicons-book-open
-      to: https://github.com/apple/swift-log
-      class: col-start-5 col-span-4
-    - title: Metrics
-      description: A Metrics API package for Swift.
-      icon: i-heroicons-chart-bar
-      to: https://github.com/apple/swift-metrics
-      class: col-start-3 col-span-4
-    - title: Tracing
-      description: A Distributed Tracing API for Swift.
-      icon: i-heroicons-magnifying-glass
-      to: https://github.com/apple/swift-distributed-tracing
-      class: col-span-4
-misc:
-  title: Other Packages
-  description: Other packages that are commonly used with Hummingbird.
+    - title: Supabase Swift Client
+      library: supabase-swift
+      description: Complete backend-as-a-service with real-time subscriptions, authentication, storage, and edge functions.
+      icon: i-simple-icons-supabase
+      to: https://github.com/supabase/supabase-swift
+      class: col-span-6
+    - title: Get
+      library: Get
+      description: Modern Swift networking with async/await support, type-safe API clients, and powerful request/response handling.
+      icon: i-heroicons-cloud-arrow-down
+      to: https://github.com/kean/Get
+      class: col-span-6
+userexperience:
+  title: User Experience & Analytics
+  description: Libraries for creating delightful user experiences and understanding app usage.
   items:
-    - title: JWT
-      library: JWTKit
-      description: JSON Web Token signing and verification.
-      icon: i-simple-icons-jsonwebtokens
-      to: https://github.com/vapor/jwt-kit
+    - title: TelemetryDeck
+      library: TelemetryDeck
+      description: Privacy-focused analytics service for Swift apps. Understand user behavior without compromising privacy.
+      icon: i-heroicons-chart-bar-square
+      to: https://github.com/TelemetryDeck/SwiftSDK
       class: col-span-4
-    - title: WebAuthn (PassKey)
-      library: WebAuthn Swift
-      description: WebAuthn (Passkey) server support.
-      icon: i-simple-icons-webauthn
-      to: https://github.com/swift-server/webauthn-swift
+    - title: Knock
+      library: Knock
+      description: Cross-platform notification infrastructure with in-app feeds, push notifications, and workflow automation.
+      icon: i-heroicons-bell
+      to: https://knock.app/
       class: col-span-4
-    - title: Apple Push Notifications
-      library: APNSwift
-      description: Support for Apple Push Notification.
-      icon: i-simple-icons-apple
-      to: https://github.com/swift-server-community/APNSwift
+    - title: Nuke
+      library: Nuke
+      description: High-performance image loading system with advanced caching, processing, and SwiftUI integration.
+      icon: i-heroicons-photo
+      to: https://github.com/kean/Nuke
       class: col-span-4
-    - title: Amazon Web Services
-      library: Soto
-      description: Swift language SDK for Amazon Web Services.
-      icon: i-mdi-aws
-      to: https://github.com/soto-project/soto
-      class: col-start-3 col-span-4
-    - title: MQTT
-      library: MTTNIO
-      description: A SwiftNIO based MQTT v3.1.1 and v5.0 client.
-      icon: i-simple-icons-mqtt
-      to: https://github.com/swift-server-community/mqtt-nio
-      class: col-span-4
+    - title: Gifu
+      library: Gifu
+      description: High-performance animated GIF support for iOS with memory-efficient frame management and smooth playback.
+      icon: i-heroicons-gif
+      to: https://github.com/kaishin/Gifu
+      class: col-span-6
+development:
+  title: Development & Debugging Tools
+  description: Essential tools for debugging, logging, and improving development workflow.
+  items:
+    - title: Pulse
+      library: Pulse
+      description: Network logger for Apple platforms. Record and inspect network requests with beautiful SwiftUI interfaces.
+      icon: i-heroicons-signal
+      to: https://github.com/kean/Pulse
+      class: col-span-12
+integration:
+  title: Swift Base Integration
+  description: All these libraries work seamlessly together within the Swift Base metaframework.
+  items:
+    - title: Unified Type System
+      description: Shared models and types across TCA state, Supabase schemas, and UI components ensure end-to-end type safety.
+      icon: i-heroicons-link
+      class: col-span-6
+    - title: AI-Assisted Development
+      description: Swift Base AI companion understands your library usage patterns and suggests optimal integrations and performance improvements.
+      icon: i-heroicons-cpu-chip
+      class: col-span-6

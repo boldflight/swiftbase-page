@@ -12,9 +12,14 @@
 
 	// Extract Swift code from Swift Base examples
 	const helloCode = `import SwiftBase
+import ComposableArchitecture
 
 @App
 struct MyApp {
+    @State var store = Store(initialState: AppState()) {
+        AppReducer()
+    }
+    
     @Route("/hello")
     func hello() -> String {
         return "Hello, Swift Base!"
@@ -22,16 +27,33 @@ struct MyApp {
 }`;
 
 	const basicRouteCode = `import SwiftBase
+import Supabase
+import Get
 
-@App
+@App 
 struct VideoApp {
+    @Database var supabase: SupabaseClient
+    
     @Route("/videos/:id")
     func getVideo(id: String) async throws -> Video {
-        // Server-side database query
-        let video = try await db.videos.find(id)
-        
-        // Client automatically gets type-safe Video
+        // Type-safe database query with Supabase
+        let video: Video = try await supabase
+            .from("videos")
+            .select()
+            .eq("id", value: id)
+            .single()
+            .execute()
+            .value
+            
+        // Client receives the same Video type
         return video
+    }
+    
+    // Client and server share the same Video model
+    struct Video: Codable {
+        let id: String
+        let title: String
+        let duration: TimeInterval
     }
 }`;
 </script>
